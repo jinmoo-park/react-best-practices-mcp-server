@@ -1,0 +1,40 @@
+{
+  "name": "react-best-practices-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for Vercel React Best Practices",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "react",
+    "nextjs",
+    "best-practices",
+    "performance",
+    "model-context-protocol",
+    "vercel"
+  ],
+  "author": "Vercel Engineering",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/react-best-practices-mcp-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YOUR_USERNAME/react-best-practices-mcp-server/issues"
+  },
+  "homepage": "https://github.com/YOUR_USERNAME/react-best-practices-mcp-server#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "gray-matter": "^4.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  }
+}
